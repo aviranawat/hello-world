@@ -1,0 +1,35 @@
+
+@media  screen  {
+
+    @font-face {
+font-family: Caveat;
+src: url('../CSS/fonts/mod3_caveat.ttf') format('truetype');
+}
+
+h2 {
+    margin: 10px 50px; 
+    border: 10px solid red;
+    font-family: Caveat;
+}
+body{
+background-color: lightgreen;
+}
+hr{
+    border: 20px dotted royalblue;
+
+}
+}
+@media print {
+    
+    @font-face {
+font-family: Caveat;
+src: url('../CSS/fonts/mod3_caveat.ttf') format('truetype');
+}
+
+h2 {
+    margin: 10px 50px; 
+    border: 10px solid red;
+    font-family: Caveat;
+}
+
+}
